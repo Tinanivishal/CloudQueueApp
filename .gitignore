@@ -1,0 +1,33 @@
+
+---
+
+## 📄 **.gitignore** (for Node.js + Terraform projects)
+
+```gitignore
+# Node
+node_modules/
+npm-debug.log*
+.env
+.env.* 
+
+# Logs
+*.log
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+terraform.tfvars
+terraform.tfvars.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Optional: editor / IDE folders
+.vscode/
+.idea/
+*.swp
